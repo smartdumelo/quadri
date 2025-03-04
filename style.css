@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 150px;
+}
+body{
+    margin: 
+    
+    
+    
+}
+header{
+    
+    background-color: rgb(230, 226, 226);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    
+}
+
+ul{
+    display: flex;
+    gap: 14px;
+    list-style-type: none;
+    margin-top: 10px; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+    transition: 3s;
+}
+li:hover{
+    transition: 3s;
+    transform: scale(1.2);
+    background-color: rgb(73, 33, 33);
+}
+
+.style{
+    margin-left: 190px;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+section{
+    margin-left: 390px;
+}
+main{
+    background-color: pink;
+    background-image: url(pexels-zeya-irish-170428250-18359545.jpg);
+    background-size: cover;
+    color: aliceblue;
+    padding: 30px;
+}
+.norton{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 70px;
+    margin-top: 40px;
+    align-items: center;
+    margin-right: -30px;
+}
+.arran{
+    width: 640px;
+    margin-bottom: 10px;
+}
+.arran-one{
+    font-size: 17px;
+    font-weight: bold; 
+}
+.norton-two{
+    display: flex;
+    gap: 70px;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: -30px;
+}
+.shop{
+    width: 640px;
+    margin-bottom: 10px;
+}
+
+.shop-one{
+    font-size: 17px;
+    font-weight: bold; 
+}
+.store{
+    margin: 5px 120px;
+    font-size: 30px;
+}
+.seyi{
+    margin: 40px;
+    
+    
+}
+.vodi{
+    width: 420px;
+
+
+}
+.made{
+    margin: 30px 400px;
+    
+}
+button{
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    margin: 20px 80px;
+    list-style-type: none;
+}
+h2{
+    margin: 10px 80px;
+}
+
+footer{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    background-color:rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
