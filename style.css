@@ -7,12 +7,7 @@
 img{
     width: 150px;
 }
-body{
-    margin: 
-    
-    
-    
-}
+
 header{
     
     background-color: rgb(230, 226, 226);
@@ -58,7 +53,7 @@ section{
 }
 main{
     background-color: pink;
-    background-image: url(pexels-zeya-irish-170428250-18359545.jpg);
+    background-image: url(img/pexels-zeya-irish-170428250-18359545.jpg);
     background-size: cover;
     color: aliceblue;
     padding: 30px;
@@ -115,12 +110,12 @@ main{
 }
 button{
     padding: 15px 50px;
-    background-color: black;
-    color: white;
+    background-color: rgb(71, 69, 69);
+    color: azure;
     border: none;
     cursor: pointer;
     font-size: medium;
-    margin: 20px 80px;
+    margin: 20px 120px;
     list-style-type: none;
 }
 h2{
