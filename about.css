@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    background-image: url(img/pexels-hngstrm-1939485.jpg);
+    background-size: cover;
+    color: #f0f8ff;
+    
+}
+section{
+    color: black;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.pic{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    margin: 20px 50px;
+
+    
+}
+
+.about{
+    display: flex;
+    gap: 14px;
+    list-style-type: none;
+    margin-top: 10px; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    font-size: 19px;
+    color: rgb(100, 100, 100);
+    background-color:rgb(0, 0, 0);
+}
+
+.foot{
+    width: 50px;
+}
+.wif{
+    margin: 10px 10px;
+}
+
+@media(max-width:380px){
+    
+    footer{
+        width: 415px;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(100, 100, 100);
+        background-color:rgb(0, 0, 0);
+    }
+    
+    .foot{
+        width: 50px;
+    }
+    .wif{
+        margin: 10px 10px;
+    }
+    
+}
+@media(max-width:480){
+    section{
+        color: black;
+        font-size: 10px;
+    }
+    footer{
+        width: 480px;
+        text-align: center;
+        font-size: 7px;
+        color: rgb(100, 100, 100);
+        background-color:rgb(0, 0, 0);
+    }
+    
+    .foot{
+        width: 50px;
+    }
+    .wif{
+        margin: 10px 10px;
+    }
+}
