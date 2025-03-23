@@ -102,13 +102,35 @@ main{
     margin: 5px 120px;
     font-size: 30px;
 }
+@keyframes slideInleft{
+    from {
+        transform: translateX(-1300px);
+
+    }
+    to{
+        transform: translateX(0);
+
+    }
+}
+
+
 .seyi{
     margin: 40px;
+    animation: slideInleft 2s ease-in;
+    /*animation-name: slideInleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;*/
+    
     
     
 }
 .vodi{
     width: 420px;
+    
 
 
 }
